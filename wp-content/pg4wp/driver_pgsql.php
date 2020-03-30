@@ -686,3 +686,5 @@ WHERE '.$where : '').';';
 		$result_status = pg_result_status($result);
 		return pg_result_error_field($result_status, PGSQL_DIAG_SQLSTATE);
 	}
+
+	
