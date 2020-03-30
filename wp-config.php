@@ -18,6 +18,10 @@
  * @package WordPress
  */
 
+$_SERVER['HTTPS'] = 'on';
+define('FORCE_SSL_LOGIN', true);
+define('FORCE_SSL_ADMIN', true);
+
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress数据库的名称 */
 // ** MySQL settings - You can get this info from your web host ** //
