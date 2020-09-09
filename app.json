@@ -1,7 +1,7 @@
 {
   "name": "WordPress on Heroku",
   "description": "An example of deploying web app to Heroku.",
-  "repository": "https://github.com/chenchk/wordpress-for-heroku",
+  "repository": "https://github.com/chenchk/wordpress-for-heroku/tree/product`",
   "website": "https://github.com/chenchk/wordpress-for-heroku",
   "keywords": ["wordpress", "blog" ],
   "addons": [
@@ -13,4 +13,5 @@
     }
   ],
   "logo":"https://image.1msky.cn/2020/09/09/422d658d82732.png",
+  "stack": "heroku-18"
 }
